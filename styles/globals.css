@@ -1,0 +1,29 @@
+:root {
+
+  --white: #fff;
+  --rocket-purple: #3A1750;
+  --gray: #9B9B9B;
+
+}
+
+:focus {
+  outline: transparent;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  -webkit-font-smoothing: antialised;
+}
+
+body, input , textarea , button {
+
+  font-family: 'Poppins' , sans-serif;
+  font-weight: 400;
+  /* q rem equivale a 16px */
+  font-size: 1rem;
+}

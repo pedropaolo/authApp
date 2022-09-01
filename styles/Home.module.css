@@ -1,0 +1,14 @@
+.wrapper {
+height: 100vh;
+background: url('../JAMES1.png');
+background-size: 100%;
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.helloMessage{
+  display: block;
+  border: solid pink;
+}
