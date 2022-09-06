@@ -39,10 +39,48 @@
 .footer a {
     color: var(--gray);
     text-decoration: none;
+    margin-top: 1rem;
 
     transition: background-color 0.2s;
 }
 
 .footer a:hover {
     color: var(--rocket-purple);
+}
+
+.authButtons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.5rem;
+}
+
+.logo {
+    margin-left: 1rem;
+}
+
+.signInButton {
+    
+    background: transparent;
+    height: 3rem;
+    border-radius: 3rem;
+    border: solid var(--rocket-purple) 3px;
+    padding: 0 1.5rem;
+    margin-top: 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: var(--rocket-purple);
+    font-weight: bold;
+
+    transition: background-color 0.2s;
+
+}
+
+.signInButton:hover {
+    background-color: var(--rocket-purple);
+    color: #ffff;
+
 }
