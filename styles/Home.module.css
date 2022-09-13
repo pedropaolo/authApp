@@ -12,3 +12,90 @@ align-items: center;
   display: block;
   border: solid pink;
 }
+
+.container {
+  width: 24rem;
+  height: 37rem;
+  background: #ffff;
+  border-radius: 16px;
+  box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.header {
+  margin: 3rem;
+}
+
+.welcome {
+  display: flex;
+  justify-content: center;
+
+  color: var(--rocket-purple);
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 2;
+
+
+}
+
+.underText {
+  display: flex;
+  justify-content: center;
+
+  color: var(--gray);
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footer a {
+  color: var(--gray);
+  text-decoration: none;
+  margin-top: 1rem;
+
+  transition: background-color 0.2s;
+}
+
+.footer a:hover {
+  color: var(--rocket-purple);
+}
+
+.authButtons{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+.logo {
+  margin-left: 1rem;
+}
+
+.signInButton {
+  
+  background: transparent;
+  height: 3rem;
+  border-radius: 3rem;
+  border: solid var(--rocket-purple) 3px;
+  padding: 0 1.5rem;
+  margin-top: 1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: var(--rocket-purple);
+  font-weight: bold;
+
+  transition: background-color 0.2s;
+
+}
+
+.signInButton:hover {
+  background-color: var(--rocket-purple);
+  color: #ffff;
+
+}
