@@ -62,7 +62,7 @@ export default function Home() {
            <button 
                type="button" 
                className={styles.signInButton}
-               onClick={() => {}}>
+               onClick={() => signIn('google' , { callbackUrl: 'http://localhost:3000/logged' })}>
                Entrar com Google
                <GoogleChromeLogo className={styles.logo} size={25}/>
            </button>
@@ -94,7 +94,7 @@ export default function Home() {
 export const getServerSideProps: GetServerSideProps = async (context) => {
 
   const session = await getSession(context);
-  console.log(session)
+  console.log("Minha session" , session)
  
   return {
       props: {

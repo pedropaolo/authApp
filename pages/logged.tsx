@@ -31,11 +31,7 @@ export default function Logged() {
             </button>
 
        </div>
-
         </div>
-
-
-       
       </div>
 
     )
