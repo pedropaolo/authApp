@@ -1,0 +1,104 @@
+.wrapper {
+    height: 100vh;
+    background: url('../JAMES1.png');
+    background-size: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.container {
+    width: 24rem;
+    height: 37rem;
+    background: #ffff;
+    border-radius: 16px;
+    box-shadow: 5px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.card {
+    margin: 3rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    margin: 3rem;
+  }
+  
+  .welcome {
+    display: flex;
+    justify-content: center;
+  
+    color: var(--rocket-purple);
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 2;
+  
+  
+  }
+  
+  .underText {
+    display: flex;
+    justify-content: center;
+  
+    color: var(--gray);
+    font-weight: bold;
+    line-height: 1.5;
+  }
+
+.name {
+    color: var(--rocket-purple);
+    font-weight: bold;
+    font-size: 1.3rem;  
+}
+
+.email {
+    color: var(--rocket-purple);
+    font-weight: bold;
+    font-size: 1rem;  
+}
+
+.avatarImage {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 5rem;
+    margin-bottom: 1rem;
+
+}
+
+.footer {
+
+    display: flex;
+    justify-content: center;
+}
+
+.footer button {
+  background: transparent;
+  height: 3rem;
+  width: 30%;
+  border-radius: 3rem;
+  border: solid var(--gray) 3px;
+  padding: 0 1.5rem;
+  margin-top: 1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: var(--gray);
+  font-weight: bold;
+
+  transition: background-color 0.2s;
+
+
+}
+
+.footer button:hover {
+    background-color: var(--gray);
+    color: white;
+}
+      
